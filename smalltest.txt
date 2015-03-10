@@ -1,48 +1,34 @@
 
+
+
 ======================================
 
-In/IN 
-[ an/DT Oct./NNP 19/CD review/NN ]
-of/IN ``/`` 
-[ The/DT Misanthrope/NN ]
-''/'' at/IN 
-[ Chicago/NNP 's/POS Goodman/NNP Theatre/NNP ]
- (/( 
-[ ``/`` Revitalized/VBN Classics/NNS ]
-Take/VBP 
-[ the/DT Stage/NN ]
+No/RB ,/, 
+[ it/PRP ]
+
+[ was/VBD n't/RB Black/NNP Monday/NNP ]
+./. 
+
+======================================
+
+But/CC while/IN 
+[ the/DT New/NNP York/NNP Stock/NNP Exchange/NNP ]
+did/VBD n't/RB 
+[ fall/VB ]
+apart/RB 
+[ Friday/NNP ]
+as/IN 
+[ the/DT Dow/NNP Jones/NNP Industrial/NNP Average/NNP ]
+plunged/VBD 
+[ 190.58/CD points/NNS ]
+--/: most/JJS of/IN 
+[ it/PRP ]
 in/IN 
-[ Windy/NNP City/NNP ]
-,/, ''/'' 
-[ Leisure/NN ]
-&/CC 
-[ Arts/NNS ]
- )/) ,/, 
-[ the/DT role/NN ]
+[ the/DT final/JJ hour/NN ]
+--/: 
+[ it/PRP ]
+barely/RB managed/VBD to/TO stay/VB 
+[ this/DT side/NN ]
 of/IN 
-[ Celimene/NNP ]
-,/, played/VBN by/IN 
-[ Kim/NNP Cattrall/NNP ]
-,/, was/VBD mistakenly/RB attributed/VBN to/TO 
-[ Christina/NNP Haag/NNP ]
+[ chaos/NN ]
 ./. 
-
-[ Ms./NNP Haag/NNP ]
-plays/VBZ 
-[ Elianti/NNP ]
-./. 
-
-======================================
-
- (/( See/VB :/: ``/`` 
-[ Revitalized/VBN Classics/NNS ]
-Take/VBP 
-[ the/DT Stage/NN ]
-in/IN 
-[ Windy/NNP City/NNP ]
-''/'' --/: 
-[ WSJ/NNP Oct./NNP 19/CD ]
-,/, 
-[ 1989/CD ]
-
-)/) 

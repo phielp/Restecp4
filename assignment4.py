@@ -19,19 +19,94 @@ def addToTable(ngramkey,ngramtable):
 		ngramtable[ngramkey] = 1
 	return ngramtable
 
-
 # language model
-def readTagfile(f):
-	ngramtable = {}
+def readSentences(f,pofn):
+	stable = {}
+	sentence = ""
 	ngramkey = ""
+	tempprob = 1.0
 	i = 0
 	remove = ['``/``',"`/``",'`/`',',/,','(/(',')/)',"''/''","'/''","'/'",":/:","$/$",
 	".../:","?/.",'[',']','{/(','}/)',
 	'#/#','--/:',';/:','-/:','!/.','2/,',"'/:",'non-``/``','Non-``/``',"underwriters/,",
 	"an/,","section/,",'US$/$','NZ$/$','C$/$','A$/$','HK$/$','M$/$','S$/$','C/$']
+	print "poep"
+	with open(f, 'r') as fread:
+		fread = fread.read()
+		# remove tags
+		for t in remove:
+			fread = fread.replace(t, "")
+		fread = fread.split("\n")
 
+		for line in fread:
+			line = line.strip()
+			# if line is a start or stop symbol
+			if line == "======================================":
+				if ngramkey == "<s>":
+					continue
+				elif i == 0:
+					ngramkey = "<s>"
+					sentence = "<s>"
+					i = 1
+					tempprob = 1
+				elif i < 3:
+					ngramkey = ngramkey + " </s>"
+					sentence += " </s>"
+					stable[sentence] = tempprob*pofn[ngramkey]
+					sentence = "<s>"
+					ngramkey = "<s>"
+					i = 1
+				else:
+					ngramkey = ngramkey.split(' ', 1)[1]
+					ngramkey = ngramkey + " </s>"
+					sentence += " </s>"
+					stable[sentence] = tempprob*pofn[ngramkey]
+					sentence = "<s>"
+					ngramkey = "<s>"
+					i = 1
+			elif line == "./.":
+				if i <= 3:
+					ngramkey = ngramkey + " </s>"
+					sentence += " </s>"
+					stable[sentence] = tempprob*pofn[ngramkey]
+					sentence = "<s>"
+					ngramkey = "<s>"
+					i = 1
+				else:
+					ngramkey = ngramkey.split(' ', 1)[1]
+					ngramkey = ngramkey + " </s>"
+					sentence += " </s>"
+					stable[sentence] = tempprob*pofn[ngramkey]
+					sentence = "<s>"
+					ngramkey = "<s>"
+					i = 1
+			else:
+				splitlines = line.translate(None, '[]').split()
+				for word in splitlines:
+					word = word.split("/")[1]
+					if i == 1:
+						ngramkey += " " + word
+						sentence += " " + word
+						i+= 1
+					elif i == 2:
+						ngramkey += " " + word
+						sentence += " " + word
+						tempprob *= pofn[ngramkey]
+						ngramkey = ngramkey.split(' ', 1)[1]
+					#wordsplit = word.split("/")
 
+	return stable
 
+# language model: read tags from training set
+def readTagfile(f):
+	ngramtable = {}
+	ngramkey = ""
+	i = 0
+	remove = [
+	'#/#','--/:',';/:','-/:','!/.','2/,',"'/:",'non-``/``','Non-``/``',"underwriters/,",
+	"an/,","section/,",'US$/$','NZ$/$','C$/$','A$/$','HK$/$','M$/$','S$/$','C/$',
+	'``/``',"`/``",'`/`',',/,','(/(',')/)',"''/''","'/''","'/'",":/:","$/$",
+	".../:","?/.",'[',']','{/(','}/)']
 
 	with open(f, 'r') as fread:
 		fread = fread.read()
@@ -132,84 +207,41 @@ def getR(ngramtable):
 	i = 1
 	k = 4
 	while i <= k + 1:
+		print i
 		numberofrs[i] = listofocc.count(i)
 		i += 1
 
 # calculate probability of sentence
 def checksentence(ngramtable, sfile,n):
+	# init variables
+	progress = True
+	ngramtable = {}
+	ngramkey = ""
+	i = 0
 	ngrams = []
 	pofsentence = {}
 	pofn = {}
 	zerocounter = 0
 
-	
-	pofn = calcProbabilityAdd1(ngramtable, False,n)
+	# calculate probabilty with turing smoothing for trainingset
+	pofn = calcProbabilityAdd1(ngramtable, False,3)
 	getR(ngramtable)
-	pofn = calcProbabilityGT(ngramtable, False,n)
+	pofn = calcProbabilityGT(ngramtable, pofn)
 	probtemppre =  1.0 /float(sum(ngramtable.values()))
 	probtemppre *= float(numberofrs[1])/1.0
 
-	countertime = 0
-	lenlines = len(lines)
+	# read sentences and get probabilities
+	newtable = readSentences(sfile,pofn)
 
-	# for every sentence (line)
-	for line in lines:
-		countertime += 1
-		print "%i/%i" % (countertime,lenlines)
-		# clean up and split into words
-		linesplit = line.split()
-
-		# if empty continue
-		if not linesplit:
-			continue
-
-		# init variables
-		i = 0
-		ngramkey = ""
-		probtemp = 1
-
-		# create ngrams
-		for word in linesplit:
-			if i == 0:
-				ngramkey = word
-				i += 1
-			elif i < n:
-				ngramkey = ngramkey + " " + word
-				i += 1
-			elif i == n:
-				ngrams.append(ngramkey)
-				ngramkey = ngramkey + " " + word
-				ngramkey = ngramkey.split(' ', 1)[1]
-
-		ngrams.append(ngramkey)
-
-		# calculate probability of ngrams
-		for ngram in ngrams:
-			if ngram in pofn:
-				probtemp *= pofn[ngram]
-			else:
-				if smoothmethod == "no":
-					probtemp = 0
-					zerocounter += 1
-					continue
-				elif smoothmethod == "add1" or smoothmethod == "gt":
-					probtemp = probtemppre
-		
-		if probtemp == 0:
-			zerocounter += 1
-
-		
-
-		pofsentence[line] = probtemp
-
-	print "There were %i sentences with zero percent chance." % (zerocounter)
-	return pofsentence
+	return newtable
 
 
+train 	= "trainSet.txt"
+test 	= "TestSet.txt"
+p = readTagfile(train)
 
-
-
-
-p = readTagfile("smalltest.txt")
-print p
+listofocc = p.values()
+numberofrs = {}
+#sentencetable = checksentence(p,test,3)
+#print sentencetable
 
