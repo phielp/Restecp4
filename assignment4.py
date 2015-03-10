@@ -41,7 +41,6 @@ def readSentences(f,pofn):
 	"an/,","section/,",'US$/$','NZ$/$','C$/$','A$/$','HK$/$','M$/$','S$/$','C/$',
 	'``/``',"`/``",'`/`',',/,','(/(',')/)',"''/''","'/''","'/'",":/:","$/$",
 	".../:","?/.",'[',']','{/(','}/)']
-	print "poep"
 	with open(f, 'r') as fread:
 		fread = fread.read()
 		# remove tags
@@ -67,7 +66,7 @@ def readSentences(f,pofn):
 					if ngramkey in pofn:
 						factor = pofn[ngramkey]
 					else:
-						factor = 1
+						factor = p0
 					stable[sentence] = tempprob*factor
 					sentence = "<s>"
 					ngramkey = "<s>"
@@ -80,7 +79,7 @@ def readSentences(f,pofn):
 					if ngramkey in pofn:
 						factor = pofn[ngramkey]
 					else:
-						factor = 1
+						factor = p0
 					stable[sentence] = tempprob*factor
 					sentence = "<s>"
 					ngramkey = "<s>"
@@ -93,7 +92,7 @@ def readSentences(f,pofn):
 					if ngramkey in pofn:
 						factor = pofn[ngramkey]
 					else:
-						factor = 1
+						factor = p0
 					stable[sentence] = tempprob*factor
 					sentence = "<s>"
 					ngramkey = "<s>"
@@ -106,7 +105,7 @@ def readSentences(f,pofn):
 					if ngramkey in pofn:
 						factor = pofn[ngramkey]
 					else:
-						factor = 1
+						factor = p0
 					stable[sentence] = tempprob*factor
 					sentence = "<s>"
 					ngramkey = "<s>"
@@ -128,7 +127,7 @@ def readSentences(f,pofn):
 							if ngramkey in pofn:
 								factor = pofn[ngramkey]
 							else:
-								factor = 1
+								factor = p0
 							tempprob *= factor
 							ngramkey = ngramkey.split(' ', 1)[1]
 							ngramcount += 1
@@ -209,8 +208,6 @@ def readTagfile(f):
 def printhigh(ngramtable):
 	# sort ngrams
 	top =  sorted(ngramtable.iteritems(), key=lambda (k,v):(v,k), reverse=False)
-	print top
-	# get the bot m results from the sorted ngrams
 	return top
 
 # good turing
@@ -220,11 +217,12 @@ def printhigh(ngramtable):
 ## pofn = a list of probabilities from using add1 smoothing
 def calcProbabilityGT(ngramtable,pofn):
 	nofngrams = sum(ngramtable.values())
+	global p0
+	p0 = float(numberofrs[1])/float(nofngrams)
 	counter = -1
 	k = 4
 	# sort ngrams from high to low
 	sortngrams = printhigh(ngramtable)
-	print sortngrams
 
 	# iterate backwards over sorted list and get p of ngrams < 5
 	while sortngrams[counter][1] < k + 1:
@@ -264,7 +262,6 @@ def getR(ngramtable):
 	while i <= k + 1:
 		numberofrs[i] = listofocc.count(i)
 		i += 1
-	print numberofrs
 
 # calculate probability of sentence
 #
@@ -274,7 +271,6 @@ def getR(ngramtable):
 def checksentence(ngramtable, sfile,n):
 	# init variables
 	progress = True
-	ngramtable = {}
 	ngramkey = ""
 	i = 0
 	ngrams = []
@@ -297,6 +293,7 @@ def checksentence(ngramtable, sfile,n):
 # testset and trainingset
 train 	= "trainSet.txt"
 test 	= "TestSet.txt"
+p0 		= 0
 
 # read tags from trainingset into table
 p = readTagfile(train)
@@ -309,5 +306,5 @@ numberofrs = {}
 # apply smoothing and calculate probabilities for trainset
 # read trainset into sentences and calc probability
 sentencetable = checksentence(p,test,3)
-print sentencetable
+#print sentencetable
 
