@@ -12,6 +12,11 @@
 import itertools
 from optparse import OptionParser
 
+# check if ngram is already in table
+# if it is increment it, if not add it
+#
+## ngramkey = ngram
+## ngramtable = ngramtable
 def addToTable(ngramkey,ngramtable):
 	if ngramkey in ngramtable:
 		ngramtable[ngramkey] += 1
@@ -19,17 +24,23 @@ def addToTable(ngramkey,ngramtable):
 		ngramtable[ngramkey] = 1
 	return ngramtable
 
-# language model
+# 			language model: read test set into sentences
+# read a testset into a table of sentences with probabilities
+# pofn contains the probabilities for ngrams from the trainset
+# 
+## f = file to be read
+## pofn = list of probabilities for ngrams from trainset
 def readSentences(f,pofn):
 	stable = {}
 	sentence = ""
 	ngramkey = ""
+	ngramcount = 0
 	tempprob = 1.0
 	i = 0
-	remove = ['``/``',"`/``",'`/`',',/,','(/(',')/)',"''/''","'/''","'/'",":/:","$/$",
-	".../:","?/.",'[',']','{/(','}/)',
-	'#/#','--/:',';/:','-/:','!/.','2/,',"'/:",'non-``/``','Non-``/``',"underwriters/,",
-	"an/,","section/,",'US$/$','NZ$/$','C$/$','A$/$','HK$/$','M$/$','S$/$','C/$']
+	remove = ['#/#','--/:',';/:','-/:','!/.','2/,',"'/:",'non-``/``','Non-``/``',"underwriters/,",
+	"an/,","section/,",'US$/$','NZ$/$','C$/$','A$/$','HK$/$','M$/$','S$/$','C/$',
+	'``/``',"`/``",'`/`',',/,','(/(',')/)',"''/''","'/''","'/'",":/:","$/$",
+	".../:","?/.",'[',']','{/(','}/)']
 	print "poep"
 	with open(f, 'r') as fread:
 		fread = fread.read()
@@ -48,62 +59,92 @@ def readSentences(f,pofn):
 					ngramkey = "<s>"
 					sentence = "<s>"
 					i = 1
+					ngramcount = 1
 					tempprob = 1
 				elif i < 3:
 					ngramkey = ngramkey + " </s>"
 					sentence += " </s>"
-					stable[sentence] = tempprob*pofn[ngramkey]
+					if ngramkey in pofn:
+						factor = pofn[ngramkey]
+					else:
+						factor = 1
+					stable[sentence] = tempprob*factor
 					sentence = "<s>"
 					ngramkey = "<s>"
 					i = 1
+					ngramcount = 1
 				else:
 					ngramkey = ngramkey.split(' ', 1)[1]
 					ngramkey = ngramkey + " </s>"
 					sentence += " </s>"
-					stable[sentence] = tempprob*pofn[ngramkey]
+					if ngramkey in pofn:
+						factor = pofn[ngramkey]
+					else:
+						factor = 1
+					stable[sentence] = tempprob*factor
 					sentence = "<s>"
 					ngramkey = "<s>"
 					i = 1
+					ngramcount = 1
 			elif line == "./.":
 				if i <= 3:
 					ngramkey = ngramkey + " </s>"
 					sentence += " </s>"
-					stable[sentence] = tempprob*pofn[ngramkey]
+					if ngramkey in pofn:
+						factor = pofn[ngramkey]
+					else:
+						factor = 1
+					stable[sentence] = tempprob*factor
 					sentence = "<s>"
 					ngramkey = "<s>"
 					i = 1
+					ngramcount = 1
 				else:
 					ngramkey = ngramkey.split(' ', 1)[1]
 					ngramkey = ngramkey + " </s>"
 					sentence += " </s>"
-					stable[sentence] = tempprob*pofn[ngramkey]
+					if ngramkey in pofn:
+						factor = pofn[ngramkey]
+					else:
+						factor = 1
+					stable[sentence] = tempprob*factor
 					sentence = "<s>"
 					ngramkey = "<s>"
 					i = 1
+					ngramcount = 1
 			else:
 				splitlines = line.translate(None, '[]').split()
 				for word in splitlines:
-					word = word.split("/")[1]
-					if i == 1:
-						ngramkey += " " + word
-						sentence += " " + word
-						i+= 1
-					elif i == 2:
-						ngramkey += " " + word
-						sentence += " " + word
-						tempprob *= pofn[ngramkey]
-						ngramkey = ngramkey.split(' ', 1)[1]
+					if ngramcount < 15:
+						word = word.split("/")[1]
+						if i == 1:
+							ngramkey += " " + word
+							sentence += " " + word
+							i+= 1
+							ngramcount += 1
+						elif i == 2:
+							ngramkey += " " + word
+							sentence += " " + word	
+							if ngramkey in pofn:
+								factor = pofn[ngramkey]
+							else:
+								factor = 1
+							tempprob *= factor
+							ngramkey = ngramkey.split(' ', 1)[1]
+							ngramcount += 1
 					#wordsplit = word.split("/")
 
 	return stable
 
-# language model: read tags from training set
+# 			language model: read tags from training set
+# read a trainset into a table of tags with the number of occurences
+#
+## f = file to be read
 def readTagfile(f):
 	ngramtable = {}
 	ngramkey = ""
 	i = 0
-	remove = [
-	'#/#','--/:',';/:','-/:','!/.','2/,',"'/:",'non-``/``','Non-``/``',"underwriters/,",
+	remove = ['#/#','--/:',';/:','-/:','!/.','2/,',"'/:",'non-``/``','Non-``/``',"underwriters/,",
 	"an/,","section/,",'US$/$','NZ$/$','C$/$','A$/$','HK$/$','M$/$','S$/$','C/$',
 	'``/``',"`/``",'`/`',',/,','(/(',')/)',"''/''","'/''","'/'",":/:","$/$",
 	".../:","?/.",'[',']','{/(','}/)']
@@ -163,20 +204,27 @@ def readTagfile(f):
 
 	return ngramtable
 
-# print highest frequency ngrams and their counts
+# sort from highest frequency to lowest frequency ngrams and their counts
+## ngramtable = the table which is to be sorted
 def printhigh(ngramtable):
 	# sort ngrams
-	top =  sorted(ngramtable.iteritems(), key=lambda (k,v):(v,k), reverse=True)
-
+	top =  sorted(ngramtable.iteritems(), key=lambda (k,v):(v,k), reverse=False)
+	print top
 	# get the bot m results from the sorted ngrams
 	return top
 
 # good turing
+# applies good turing smoothing
+#
+## ngramtable = is the table to be smoothed
+## pofn = a list of probabilities from using add1 smoothing
 def calcProbabilityGT(ngramtable,pofn):
 	nofngrams = sum(ngramtable.values())
 	counter = -1
+	k = 4
 	# sort ngrams from high to low
 	sortngrams = printhigh(ngramtable)
+	print sortngrams
 
 	# iterate backwards over sorted list and get p of ngrams < 5
 	while sortngrams[counter][1] < k + 1:
@@ -187,6 +235,11 @@ def calcProbabilityGT(ngramtable,pofn):
 	return pofn
 
 # add 1 smoothing
+# applies add 1 smoothing
+#
+## ngramtable = the table to be smoothed
+## comments = boolean which shows output for every sentence
+## n = ngramlength
 def calcProbabilityAdd1(ngramtable,comments,n):
 	nofngrams = sum(ngramtable.values())
 	pofngrams = {}
@@ -202,16 +255,22 @@ def calcProbabilityAdd1(ngramtable,comments,n):
 			pofngrams[ngram] = 0.0
 	return pofngrams
 
-# get ngrams under k occurrences
+# get number ngrams under k occurrences
+# 
+## ngramtable = the ngrams which are to be thresholded
 def getR(ngramtable):
 	i = 1
 	k = 4
 	while i <= k + 1:
-		print i
 		numberofrs[i] = listofocc.count(i)
 		i += 1
+	print numberofrs
 
 # calculate probability of sentence
+#
+## ngramtable = the table of probabilities from the trainingset
+## sfile = the file which is to be read
+## n = ngramlength
 def checksentence(ngramtable, sfile,n):
 	# init variables
 	progress = True
@@ -227,21 +286,28 @@ def checksentence(ngramtable, sfile,n):
 	pofn = calcProbabilityAdd1(ngramtable, False,3)
 	getR(ngramtable)
 	pofn = calcProbabilityGT(ngramtable, pofn)
-	probtemppre =  1.0 /float(sum(ngramtable.values()))
-	probtemppre *= float(numberofrs[1])/1.0
+	#probtemppre =  1.0 /float(sum(ngramtable.values()))
+	#probtemppre *= float(numberofrs[1])/1.0
 
 	# read sentences and get probabilities
 	newtable = readSentences(sfile,pofn)
 
 	return newtable
 
-
+# testset and trainingset
 train 	= "trainSet.txt"
 test 	= "TestSet.txt"
+
+# read tags from trainingset into table
 p = readTagfile(train)
 
+# get a list of occurences and 
+# init a list for the number of ngram occurences under k
 listofocc = p.values()
 numberofrs = {}
-#sentencetable = checksentence(p,test,3)
-#print sentencetable
+
+# apply smoothing and calculate probabilities for trainset
+# read trainset into sentences and calc probability
+sentencetable = checksentence(p,test,3)
+print sentencetable
 
