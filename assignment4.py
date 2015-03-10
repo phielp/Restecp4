@@ -115,7 +115,6 @@ def readSentences(f,pofn):
 				splitlines = line.translate(None, '[]').split()
 				for word in splitlines:
 					if ngramcount < 15:
-						word = word.split("/")[1]
 						if i == 1:
 							ngramkey += " " + word
 							sentence += " " + word
@@ -123,7 +122,7 @@ def readSentences(f,pofn):
 							ngramcount += 1
 						elif i == 2:
 							ngramkey += " " + word
-							sentence += " " + word	
+							sentence += " " + word
 							if ngramkey in pofn:
 								factor = pofn[ngramkey]
 							else:
@@ -263,6 +262,86 @@ def getR(ngramtable):
 		numberofrs[i] = listofocc.count(i)
 		i += 1
 
+def checkTags(assigned,correct):
+	#print "============================="
+	#print assigned
+	#print correct
+	#print "============================="
+	hits = 0
+	i=1
+	while i < len(assigned)-1:
+		if assigned[i] == "</s>":
+			continue
+		if assigned[i] == correct[i]:
+			hits += 1
+		i += 1
+
+	return hits
+
+def tagsentences(sentences, pofn):
+	assignedtags = []
+	tot = 0
+	correcttags = []
+	ngram = ""
+	hits = 0
+	i = 0
+	for line in sentences:
+		line = line.split()
+		tot += len(line)
+		if len(line) > 15:
+			continue
+		for word in line:
+			if word == "<s>":
+				assignedtags.append(word)
+				correcttags.append(word)
+				i = 1
+				continue
+			elif word == "</s>":
+				assignedtags.append(word)
+				correcttags.append(word)
+				hits += checkTags(assignedtags,correcttags)
+				assignedtags = []
+				correcttags = []
+				i = 0
+				continue
+			elif not word:
+				continue
+
+			if i == 1:
+				possibilities = list(k for k,v in pofn.iteritems() if " ".join(assignedtags) in k.lower())
+				if possibilities:
+					temptag = possibilities[0].split()[1]
+					assignedtags.append(temptag)
+				i += 1
+			elif i >= 2:
+				possibilities = list(k for k,v in pofn.iteritems() if " ".join(assignedtags[i:i+1]) in k.lower())
+				if possibilities:
+					temptag = possibilities[0].split()
+					if temptag[0] != assignedtags[-1] and temptag[0] != "<s>":
+						assignedtags.append(temptag[0])
+					elif temptag[1] != assignedtags[-1]:
+						assignedtags.append(temptag[1])
+					elif temptag[2] != "</s>":
+						assignedtags.append(temptag[2])
+					else:
+						assignedtags.append(temptag[1])
+				else:
+					possibilities = list(k for k,v in pofn.iteritems() if " ".join(assignedtags[i]) in k.lower())
+					temptag = possibilities[0].split()[0]
+					assignedtags.append(temptag)
+				
+				i += 1
+
+			correcttags.append(word.split("/")[1])
+	print "Accuracy:"
+	print "%i / %i = %f" % (hits,tot,float(hits)/float(tot))
+
+
+
+
+
+
+
 # calculate probability of sentence
 #
 ## ngramtable = the table of probabilities from the trainingset
@@ -280,13 +359,13 @@ def checksentence(ngramtable, sfile,n):
 
 	# calculate probabilty with turing smoothing for trainingset
 	pofn = calcProbabilityAdd1(ngramtable, False,3)
-	getR(ngramtable)
-	pofn = calcProbabilityGT(ngramtable, pofn)
-	#probtemppre =  1.0 /float(sum(ngramtable.values()))
-	#probtemppre *= float(numberofrs[1])/1.0
+	#getR(ngramtable)
+	#pofn = calcProbabilityGT(ngramtable, pofn)
 
 	# read sentences and get probabilities
 	newtable = readSentences(sfile,pofn)
+	# tag sentences
+	tagsentences(newtable,pofn)
 
 	return newtable
 
@@ -297,6 +376,7 @@ p0 		= 0
 
 # read tags from trainingset into table
 p = readTagfile(train)
+print p
 
 # get a list of occurences and 
 # init a list for the number of ngram occurences under k

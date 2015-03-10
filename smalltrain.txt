@@ -1,4 +1,6 @@
 
+
+
 ======================================
 
 In/IN 
@@ -46,3 +48,272 @@ in/IN
 [ 1989/CD ]
 
 )/) 
+======================================
+
+
+
+
+======================================
+
+[ Rolls-Royce/NNP Motor/NNP Cars/NNPS Inc./NNP ]
+said/VBD 
+[ it/PRP ]
+expects/VBZ 
+[ its/PRP$ U.S./NNP sales/NNS ]
+to/TO remain/VB 
+[ steady/JJ ]
+at/IN about/IN 
+[ 1,200/CD cars/NNS ]
+in/IN 
+[ 1990/CD ]
+./. 
+
+[ The/DT luxury/NN auto/NN maker/NN last/JJ year/NN ]
+sold/VBD 
+[ 1,214/CD cars/NNS ]
+in/IN 
+[ the/DT U.S./NNP Howard/NNP Mosher/NNP ]
+,/, 
+[ president/NN ]
+and/CC 
+[ chief/JJ executive/NN officer/NN ]
+,/, said/VBD 
+[ he/PRP ]
+anticipates/VBZ 
+[ growth/NN ]
+for/IN 
+[ the/DT luxury/NN auto/NN maker/NN ]
+in/IN 
+[ Britain/NNP ]
+and/CC 
+[ Europe/NNP ]
+,/, and/CC in/IN 
+[ Far/JJ Eastern/JJ markets/NNS ]
+./. 
+
+
+
+======================================
+
+[ BELL/NNP INDUSTRIES/NNP Inc./NNP ]
+increased/VBD 
+[ its/PRP$ quarterly/NN ]
+to/TO 
+[ 10/CD cents/NNS ]
+from/IN 
+[ seven/CD cents/NNS ]
+
+[ a/DT share/NN ]
+./. 
+
+[ The/DT new/JJ rate/NN ]
+will/MD be/VB 
+[ payable/JJ Feb./NNP 15/CD ]
+./. 
+
+[ A/DT record/NN date/NN has/VBZ n't/RB ]
+been/VBN set/VBN ./. 
+
+[ Bell/NNP ]
+,/, based/VBN in/IN 
+[ Los/NNP Angeles/NNP ]
+,/, makes/VBZ and/CC distributes/VBZ 
+[ electronic/JJ ]
+,/, 
+[ computer/NN ]
+and/CC 
+[ building/NN products/NNS ]
+./. 
+
+
+
+======================================
+
+[ Investors/NNS ]
+are/VBP appealing/VBG to/TO 
+[ the/DT Securities/NNPS ]
+and/CC 
+[ Exchange/NNP Commission/NNP ]
+not/RB to/TO limit/VB 
+[ their/PRP$ access/NN ]
+to/TO 
+[ information/NN ]
+about/IN 
+[ stock/NN purchases/NNS ]
+and/CC 
+[ sales/NNS ]
+by/IN 
+[ corporate/JJ insiders/NNS ]
+./. 
+
+======================================
+
+[ A/DT SEC/NNP proposal/NN ]
+to/TO ease/VB reporting/NN 
+[ requirements/NNS ]
+for/IN 
+[ some/DT company/NN executives/NNS ]
+would/MD undermine/VB 
+[ the/DT usefulness/NN ]
+of/IN 
+[ information/NN ]
+on/IN 
+[ insider/NN trades/NNS ]
+as/IN 
+[ a/DT stock-picking/JJ tool/NN ]
+,/, 
+[ individual/JJ investors/NNS ]
+and/CC 
+[ professional/JJ money/NN managers/NNS ]
+contend/VBP ./. 
+
+======================================
+
+[ They/PRP ]
+make/VBP 
+[ the/DT argument/NN ]
+in/IN 
+[ letters/NNS ]
+to/TO 
+[ the/DT agency/NN ]
+about/IN 
+[ rule/NN changes/NNS ]
+proposed/VBD 
+[ this/DT past/JJ summer/NN ]
+that/IN ,/, among/IN 
+[ other/JJ things/NNS ]
+,/, would/MD exempt/VB 
+[ many/JJ middle-management/JJ executives/NNS ]
+from/IN reporting/VBG 
+[ trades/NNS ]
+in/IN 
+[ their/PRP$ own/JJ companies/NNS '/POS shares/NNS ]
+./. 
+
+[ The/DT proposed/VBN changes/NNS ]
+also/RB would/MD allow/VB 
+[ executives/NNS ]
+to/TO report/VB 
+[ exercises/NNS ]
+of/IN 
+[ options/NNS ]
+later/RBR and/CC less/RBR often/RB ./. 
+
+======================================
+
+[ Many/JJ ]
+of/IN 
+[ the/DT letters/NNS ]
+maintain/VBP that/IN 
+[ investor/NN confidence/NN ]
+has/VBZ been/VBN so/RB shaken/VBN by/IN 
+[ the/DT 1987/CD stock/NN market/NN crash/NN ]
+--/: and/CC 
+[ the/DT markets/NNS ]
+already/RB so/RB stacked/VBN against/IN 
+[ the/DT little/JJ guy/NN ]
+--/: that/IN 
+[ any/DT decrease/NN ]
+in/IN 
+[ information/NN ]
+on/IN 
+[ insider-trading/NN patterns/NNS ]
+might/MD prompt/VB 
+[ individuals/NNS ]
+to/TO get/VB out/RB of/IN 
+[ stocks/NNS ]
+altogether/RB ./. 
+
+======================================
+
+``/`` 
+[ The/DT SEC/NNP ]
+has/VBZ historically/RB paid/VBN 
+[ obeisance/NN ]
+to/TO 
+[ the/DT ideal/NN ]
+of/IN 
+[ a/DT level/JJ playing/NN field/NN ]
+,/, ''/'' wrote/VBD 
+[ Clyde/NNP S./NNP McGregor/NNP ]
+of/IN 
+[ Winnetka/NNP ]
+,/, 
+[ Ill./NNP ]
+,/, in/IN 
+[ one/CD ]
+of/IN 
+[ the/DT 92/CD letters/NNS ]
+
+[ the/DT agency/NN ]
+has/VBZ received/VBN since/IN 
+[ the/DT changes/NNS ]
+were/VBD proposed/VBN 
+[ Aug./NNP 17/CD ]
+./. 
+
+``/`` Apparently/RB 
+[ the/DT commission/NN ]
+did/VBD not/RB really/RB believe/VB in/IN 
+[ this/DT ideal/NN ]
+./. 
+
+''/'' 
+======================================
+
+Currently/RB ,/, 
+[ the/DT rules/NNS force/VBP executives/NNS ]
+,/, 
+[ directors/NNS ]
+and/CC 
+[ other/JJ corporate/JJ insiders/NNS ]
+to/TO report/VB 
+[ purchases/NNS ]
+and/CC 
+[ sales/NNS ]
+of/IN 
+[ their/PRP$ companies/NNS '/POS shares/NNS ]
+within/IN about/IN 
+[ a/DT month/NN ]
+after/IN 
+[ the/DT transaction/NN ]
+./. 
+
+But/CC about/IN 
+[ 25/CD %/NN ]
+of/IN 
+[ the/DT insiders/NNS ]
+,/, according/VBG to/TO 
+[ SEC/NNP figures/NNS ]
+,/, file/VBP 
+[ their/PRP$ reports/NNS ]
+late/RB ./. 
+
+======================================
+
+[ The/DT changes/NNS ]
+were/VBD proposed/VBN in/IN 
+[ an/DT effort/NN ]
+to/TO streamline/VB 
+[ federal/JJ bureaucracy/NN ]
+and/CC 
+[ boost/VB compliance/NN ]
+by/IN 
+[ the/DT executives/NNS ]
+``/`` 
+[ who/WP ]
+are/VBP really/RB calling/VBG 
+[ the/DT shots/NNS ]
+,/, ''/'' said/VBD 
+[ Brian/NNP Lane/NNP ]
+,/, 
+[ special/JJ counsel/NN ]
+at/IN 
+[ the/DT SEC/NNP 's/POS office/NN ]
+of/IN 
+[ disclosure/NN policy/NN ]
+,/, 
+[ which/WDT ]
+proposed/VBD 
+[ the/DT changes/NNS ]
+./. 
