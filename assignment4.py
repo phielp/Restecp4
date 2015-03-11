@@ -7,6 +7,7 @@
 # Command-line:
 # (1): python assignment4.py -c [trainset] -t [testset] -s [yes|no] -p [predictedtagsfile]
 import itertools
+import time
 from operator import itemgetter
 from optparse import OptionParser
 
@@ -239,6 +240,75 @@ def readTagfile(f):
 
 	return ngramtable
 
+#						lexical model
+# read trainset into dictionary with dictionaries and taglist
+# so tagoccurences can be accessed as well as tagging of certain words
+# f = filepath to trainset
+def readTagfileLex(f):
+	lextable = {}
+	taglist = {}
+	remove = ['#/#','--/:',';/:','-/:','!/.','2/,',"'/:",'non-``/``','Non-``/``',"underwriters/,",
+	"an/,","section/,",'US$/$','NZ$/$','C$/$','A$/$','HK$/$','M$/$','S$/$','C/$',
+	'``/``',"`/``",'`/`',',/,','(/(',')/)',"''/''","'/''","'/'",":/:","$/$",
+	".../:","?/.",'[',']','{/(','}/)',"======================================","./.","\/","*/"]
+
+	with open(f, 'r') as fread:
+		fread = fread.read()
+		# remove tags
+		for t in remove:
+			fread = fread.replace(t, "")
+		fread = fread.replace("ChiatNNP", "Chiat/NNP")
+		fread = fread.replace("\SYM", "\*/SYM")
+		fread = fread.replace("\NN", "\*/NN")
+		fread = fread.split("\n")
+
+		for line in fread:
+			line = line.strip().split()
+			for word in line:
+				[word,tag] = word.split("/")
+				if word in lextable:
+					if tag in lextable[word]:
+						lextable[word][tag] += 1
+					else:
+						lextable[word][tag] = 1
+				else:
+					lextable[word] = {tag: 1}
+
+				if tag in taglist:
+					taglist[tag] += 1
+				else:
+					taglist[tag] = 1
+	return [lextable,taglist]
+
+#		 			lexical model
+# calculate probabilty for lexical model
+#
+## lextable = lexicon word table with words and assigned tags from trainset
+## taglist = list of tagoccurrences in trainset
+def calcProbLex(lextable,taglist):
+	for word in lextable:
+		for tag in lextable[word]:
+			lextable[word][tag] /= taglist[tag]
+	return lextable 
+
+#					lexical model
+# calculate probabilty using smoothing
+#
+## lextable = lexicon word table with words and assigned tags from trainset
+## taglist = list of tagoccurrences in trainset
+def calcProbLexGT(lextable,taglist):
+	for word in lextable:
+		for tag in lextable[word]:
+			if lextable[word][tag] == 1:
+				lextable[word][tag] = 0.5
+			elif lextable[word][tag] == 0:
+				lextable[word][tag] = (numberofrs[1]/1)*0.5
+			else:
+				lextable[word][tag] /= taglist[tag]
+	return lextable 
+
+						
+#					language model
 # sort from highest frequency to lowest frequency ngrams and their counts
 ## ngramtable = the table which is to be sorted
 def printhigh(ngramtable):
@@ -246,6 +316,7 @@ def printhigh(ngramtable):
 	top =  sorted(ngramtable.iteritems(), key=lambda (k,v):(v,k), reverse=False)
 	return top
 
+#					language model
 # good turing
 # applies good turing smoothing
 #
@@ -268,6 +339,7 @@ def calcProbabilityGT(ngramtable,pofn):
 		counter -= 1
 	return pofn
 
+#					language model
 # add 1 smoothing
 # applies add 1 smoothing
 #
@@ -424,6 +496,10 @@ def tagsentences(sentences, pofn):
 	print "Accuracy:"
 	print "%i / %i = %f" % (hits,tot,float(hits)/float(tot))
 
+#						lexical model
+# tagger
+#def tagsentencelex(sentences, lextable,pofnlex):
+
 
 # calculate probability of sentence
 #
@@ -445,8 +521,10 @@ def checksentence(ngramtable, sfile,n):
 		pofn = calcProbabilityAdd1(ngramtable, False,3)
 		getR(ngramtable)
 		pofn = calcProbabilityGT(ngramtable, pofn)
+		pofnlex = calcProbLexGT(lextable,taglist)
 	else:
 		pofn = calcProbability(ngramtable,False,3)
+		pofnlex = calcProbLex(lextable,taglist)
 
 	# read sentences and get probabilities
 	newtable = readSentences(sfile,pofn)
@@ -458,6 +536,7 @@ def checksentence(ngramtable, sfile,n):
 
 						# main code #
 ############################################################
+starttime = time.time()
 # parse options
 parser = OptionParser()
 parser.add_option("-c", "--trainset", dest="trainset")
@@ -471,7 +550,7 @@ parser.add_option("-s", "--smoothing" , dest="smoothing")
 if options.smoothing:
 	smoothing = options.smoothing
 else:
-	smoothing = "no"
+	smoothing = "yes"
 
 # if trainset assigned
 if options.trainset:
@@ -497,6 +576,7 @@ p0 		= 0
 
 # read tags from trainingset into table
 p = readTagfile(train)
+[lextable,taglist] = readTagfileLex(train)
 
 # get a list of occurences and 
 # init a list for the number of ngram occurences under k
@@ -506,4 +586,8 @@ numberofrs = {}
 # apply smoothing and calculate probabilities for trainset
 # read trainset into sentences and calc probability
 sentencetable = checksentence(p,test,3)
+endtime = time.time()
+
+print endtime - starttime
+
 
