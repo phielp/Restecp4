@@ -1,530 +1,530 @@
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN </s>
-<s> DT </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC </s>
-<s> DT </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT IN CC IN CC IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>
 <s> </s>
-<s> DT IN CC IN CC IN CC IN CC </s>
-<s> DT </s>
-<s> DT IN CC IN </s>
-<s> DT IN CC IN CC IN CC IN CC IN </s>
+<s> NN NN NN NN NN NN NN NN NN </s>
+<s> NN </s>
+<s> NN NN NN NN </s>
+<s> NN NN NN NN NN NN NN NN NN NN </s>

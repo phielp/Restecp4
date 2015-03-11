@@ -493,12 +493,67 @@ def tagsentences(sentences, pofn):
 			correcttags.append(word.split("/")[1])
 	f.close()
 	# print accuracy of tagging
-	print "Accuracy:"
+	print "Language Accuracy:"
 	print "%i / %i = %f" % (hits,tot,float(hits)/float(tot))
 
 #						lexical model
-# tagger
-#def tagsentencelex(sentences, lextable,pofnlex):
+# assign tags to sentences
+#
+## sentences = list of sentences from testset
+## lextable = dict of words with tags and probabilities from trainset
+def tagsentencelex(sentences, lextable):
+	# init variables
+	assignedtags = []
+	tot = 0
+	correcttags = []
+	ngram = ""
+	hits = 0
+	f = open(predictions, 'w')
+
+	# for every given sentence
+	for line in sentences:
+
+		# split sentence into words and count total number of words
+		line = line.split()
+		tot += len(line)
+
+		# sentences larger of 15 or more words are to be ignored
+		if len(line) > 15:
+			continue
+
+
+		for word in line:
+			# if starttag add to taglists
+			if word == "<s>":
+				assignedtags.append(word)
+				correcttags.append(word)
+				continue
+			# if stop tag check taglists against eachother
+			# reset lists
+			elif word == "</s>":
+				assignedtags.append(word)
+				correcttags.append(word)
+				hits += checkTags(assignedtags,correcttags,f)
+				assignedtags = []
+				correcttags = []
+				continue
+			# if empty item, ignore word
+			elif not word:
+				continue
+
+			# assign tag with highest probability if known
+			if word in lextable:
+				assignedtags.append( printhigh(lextable[word])[0])
+			# if not known tag assign NN
+			else:
+				assignedtags.append("NN")
+			# update correct tags
+			correcttags.append(word.split("/")[1])
+	f.close()
+	# print accuracy of tagging
+	print "Lexical Accuracy:"
+	print "%i / %i = %f" % (hits,tot,float(hits)/float(tot))
+
 
 
 # calculate probability of sentence
@@ -530,6 +585,7 @@ def checksentence(ngramtable, sfile,n):
 	newtable = readSentences(sfile,pofn)
 	# tag sentences
 	tagsentences(newtable,pofn)
+	tagsentencelex(newtable,pofnlex)
 
 	return newtable
 
