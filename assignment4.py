@@ -508,7 +508,9 @@ def tagsentencelex(sentences, lextable):
 	correcttags = []
 	ngram = ""
 	hits = 0
-	f = open(predictions, 'w')
+	f = open(predictions, 'a')
+	f.write("\n\n===============lexicalresults=============\n\n")
+
 
 	# for every given sentence
 	for line in sentences:
