@@ -1,0 +1,530 @@
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT </s>
+<s> NN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN </s>
+<s> NN </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN DT IN DT IN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>
+<s> </s>
+<s> NN DT IN DT IN DT IN DT IN </s>
+<s> NN </s>
+<s> NN DT IN DT </s>
+<s> NN DT IN DT IN DT IN DT IN DT </s>

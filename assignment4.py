@@ -5,11 +5,9 @@
 #	Date		: 06-02-2015
 #
 # Command-line:
-# (1): python assignment2.py -c austen.txt -n 3
-# (2): python assignment2.py -c austen.txt -p test2.txt
-# (3): python assignment2.py -c austen.txt -n 3 -s test.txt
-# (4): python assignment2.py -c austen.txt -n 3 -fo
+# (1): python assignment4.py -c [trainset] -t [testset] -s [yes|no] -p [predictedtagsfile]
 import itertools
+from operator import itemgetter
 from optparse import OptionParser
 
 # check if ngram is already in table
@@ -115,6 +113,33 @@ def readSentences(f,pofn):
 				splitlines = line.translate(None, '[]').split()
 				for word in splitlines:
 					if ngramcount < 15:
+						if word == "./.":
+							if i <= 3:
+								ngramkey = ngramkey + " </s>"
+								sentence += " </s>"
+								if ngramkey in pofn:
+									factor = pofn[ngramkey]
+								else:
+									factor = p0
+								stable[sentence] = tempprob*factor
+								sentence = "<s>"
+								ngramkey = "<s>"
+								i = 1
+								ngramcount = 1
+							else:
+								ngramkey = ngramkey.split(' ', 1)[1]
+								ngramkey = ngramkey + " </s>"
+								sentence += " </s>"
+								if ngramkey in pofn:
+									factor = pofn[ngramkey]
+								else:
+									factor = p0
+								stable[sentence] = tempprob*factor
+								sentence = "<s>"
+								ngramkey = "<s>"
+								i = 1
+								ngramcount = 1
+							continue
 						if i == 1:
 							ngramkey += " " + word
 							sentence += " " + word
@@ -187,9 +212,21 @@ def readTagfile(f):
 					ngramkey = "<s>"
 					i = 1
 			else:
-
 				splitlines = line.translate(None, '[]').split()
 				for word in splitlines:
+					if word == "./.":
+						if i <= 3:
+							ngramkey = ngramkey + " </s>"
+							ngramtable = addToTable(ngramkey,ngramtable)
+							ngramkey = "<s>"
+							i = 1
+						else:
+							ngramkey = ngramkey.split(' ', 1)[1]
+							ngramkey = ngramkey + " </s>"
+							ngramtable = addToTable(ngramkey,ngramtable)
+							ngramkey = "<s>"
+							i = 1
+						continue
 					word = word.split("/")[1]
 					if i == 1:
 						ngramkey += " " + word
@@ -252,6 +289,27 @@ def calcProbabilityAdd1(ngramtable,comments,n):
 			pofngrams[ngram] = 0.0
 	return pofngrams
 
+# no smoothing probability
+# calculates probability without smoothing
+#
+## ngramtable = the table for which probabilities must be calculated
+## comments = boolean which shows output for every sentence
+## n = ngramlength
+def calcProbability(ngramtable,comments,n):
+	nofngrams = sum(ngramtable.values())
+	pofngrams = {}
+	for ngram in ngramtable:
+		if ngram in ngramtable:
+			pofngram = (float(ngramtable[ngram])) / float(nofngrams)
+			if comments:
+				print "The probability of the ngram '%s' occuring is %.20f" % (ngram,pofngram)
+			pofngrams[ngram] = pofngram
+		else:
+			if comments:
+				print "The probability of the ngram '%s' occuring is %f" % (ngram,0.0)
+			pofngrams[ngram] = 0.0
+	return pofngrams
+
 # get number ngrams under k occurrences
 # 
 ## ngramtable = the ngrams which are to be thresholded
@@ -262,11 +320,11 @@ def getR(ngramtable):
 		numberofrs[i] = listofocc.count(i)
 		i += 1
 
-def checkTags(assigned,correct):
-	#print "============================="
-	#print assigned
-	#print correct
-	#print "============================="
+# check how many of assigned tags were correct
+#
+## assigned = list of assigned tags
+## correct = list of correct tags
+def checkTags(assigned,correct,f):
 	hits = 0
 	i=1
 	while i < len(assigned)-1:
@@ -276,70 +334,95 @@ def checkTags(assigned,correct):
 			hits += 1
 		i += 1
 
+	f.write(" ".join(assigned)+"\n")
+
 	return hits
 
+# tag input sentences based on table of probabilities from trainingset
+#
+## sentences = sentences read from testset
+## pofn = probability of ngrams read from trainset
 def tagsentences(sentences, pofn):
+	# init variables
 	assignedtags = []
 	tot = 0
 	correcttags = []
 	ngram = ""
 	hits = 0
 	i = 0
+	f = open(predictions, 'w')
+
+	# for every given sentence
 	for line in sentences:
+
+		# split sentence into words and count total number of words
 		line = line.split()
 		tot += len(line)
+
+		# sentences larger of 15 or more words are to be ignored
 		if len(line) > 15:
 			continue
+
+
 		for word in line:
+			# if starttag add to taglists
 			if word == "<s>":
 				assignedtags.append(word)
 				correcttags.append(word)
 				i = 1
 				continue
+			# if stop tag check taglists against eachother
+			# reset lists
 			elif word == "</s>":
 				assignedtags.append(word)
 				correcttags.append(word)
-				hits += checkTags(assignedtags,correcttags)
+				hits += checkTags(assignedtags,correcttags,f)
 				assignedtags = []
 				correcttags = []
 				i = 0
 				continue
+			# if empty item, ignore word
 			elif not word:
 				continue
 
+			# if only 1 tag has been assigned
 			if i == 1:
 				possibilities = list(k for k,v in pofn.iteritems() if " ".join(assignedtags) in k.lower())
 				if possibilities:
 					temptag = possibilities[0].split()[1]
 					assignedtags.append(temptag)
 				i += 1
+			# if 2 or more tags have been assigned
 			elif i >= 2:
-				possibilities = list(k for k,v in pofn.iteritems() if " ".join(assignedtags[i:i+1]) in k.lower())
+				# get all ngrams containing last tagged items
+				# sort this list and get most probable
+				possibilities = list([v,k] for k,v in pofn.iteritems() if " ".join(assignedtags[i:i+1]) in k.lower())
+				possibilities = sorted(possibilities, key=itemgetter(1))
+				possibilities = possibilities[0][1]
+				# if something was found preferably get tag which is not the same
 				if possibilities:
-					temptag = possibilities[0].split()
-					if temptag[0] != assignedtags[-1] and temptag[0] != "<s>":
-						assignedtags.append(temptag[0])
+					temptag = possibilities.split()
+					if temptag[2] != "</s>" and temptag[2] != assignedtags[-1]:
+						assignedtags.append(temptag[2])
 					elif temptag[1] != assignedtags[-1]:
 						assignedtags.append(temptag[1])
-					elif temptag[2] != "</s>":
-						assignedtags.append(temptag[2])
+					elif temptag[0] != assignedtags[-1] and temptag[0] != "<s>":
+						assignedtags.append(temptag[0])
 					else:
 						assignedtags.append(temptag[1])
+				# if nothing was found, loosen criteria
 				else:
 					possibilities = list(k for k,v in pofn.iteritems() if " ".join(assignedtags[i]) in k.lower())
 					temptag = possibilities[0].split()[0]
 					assignedtags.append(temptag)
-				
+				# update i
 				i += 1
-
+			# update correct tags
 			correcttags.append(word.split("/")[1])
+	f.close()
+	# print accuracy of tagging
 	print "Accuracy:"
 	print "%i / %i = %f" % (hits,tot,float(hits)/float(tot))
-
-
-
-
-
 
 
 # calculate probability of sentence
@@ -358,9 +441,12 @@ def checksentence(ngramtable, sfile,n):
 	zerocounter = 0
 
 	# calculate probabilty with turing smoothing for trainingset
-	pofn = calcProbabilityAdd1(ngramtable, False,3)
-	#getR(ngramtable)
-	#pofn = calcProbabilityGT(ngramtable, pofn)
+	if smoothing == "yes":
+		pofn = calcProbabilityAdd1(ngramtable, False,3)
+		getR(ngramtable)
+		pofn = calcProbabilityGT(ngramtable, pofn)
+	else:
+		pofn = calcProbability(ngramtable,False,3)
 
 	# read sentences and get probabilities
 	newtable = readSentences(sfile,pofn)
@@ -369,14 +455,48 @@ def checksentence(ngramtable, sfile,n):
 
 	return newtable
 
-# testset and trainingset
-train 	= "trainSet.txt"
-test 	= "TestSet.txt"
+
+						# main code #
+############################################################
+# parse options
+parser = OptionParser()
+parser.add_option("-c", "--trainset", dest="trainset")
+parser.add_option("-p", "--testsetpredicted", dest="predictions")
+parser.add_option("-t", "--testset", dest="testset")
+parser.add_option("-s", "--smoothing" , dest="smoothing")
+
+(options,args) = parser.parse_args()
+
+# if smoothing assigned
+if options.smoothing:
+	smoothing = options.smoothing
+else:
+	smoothing = "no"
+
+# if trainset assigned
+if options.trainset:
+	train = options.trainset
+else:
+	train 	= "trainSet.txt"
+
+# if testset assigned
+if options.testset:
+	train = options.testset
+else:
+	test 	= "TestSet.txt"
+
+# if predictionsfile assigned
+if options.predictions:
+	predictions = options.predictions
+else:
+	predictions = "predictions.txt"
+
+
+# init chance for unknown tags with GT smoothing
 p0 		= 0
 
 # read tags from trainingset into table
 p = readTagfile(train)
-print p
 
 # get a list of occurences and 
 # init a list for the number of ngram occurences under k
@@ -386,5 +506,4 @@ numberofrs = {}
 # apply smoothing and calculate probabilities for trainset
 # read trainset into sentences and calc probability
 sentencetable = checksentence(p,test,3)
-#print sentencetable
 
